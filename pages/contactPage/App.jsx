@@ -1,8 +1,8 @@
-import ButtonGradient from "./assets/svg/ButtonGradient";
+import ButtonGradient from "../../ContactPageApp/src/assets/svg/ButtonGradient";
 
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import ContactForm from './components/ContactForm'
+import Footer from "../../ContactPageApp/src/components/Footer";
+import Header from "../../ContactPageApp/src/components/Header";
+import ContactForm from '../../ContactPageApp/src/components/ContactForm'
 const App = () => {
   return (
     <>
