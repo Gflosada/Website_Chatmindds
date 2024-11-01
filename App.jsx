@@ -1,17 +1,17 @@
 import React from "react";
-import App from "./pages/contactPage/App"; // Assuming 'App.jsx' is the main file for Home
-import App from "./pages/homePage/App"; // Assuming 'App.jsx' is the main file for Contact
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./HomePageApp/App"; // Adjust paths as needed
+import Contact from "./ContactPageApp/App"; // Adjust paths as needed
 
 const App = () => {
-  
   return (
-   <div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
+};
 
-    <App />
-    <App />
-
-   </div>
-  )
-}
-
-export default App
+export default App;
