@@ -152,13 +152,13 @@ export default function ContactForm() {
             </CardContent>
           </Card>
 
-          <Card className="bg-white">
+          <Card className="bg-white overflow-hidden">
             <CardContent className="p-0 h-full">
               <div className="relative h-full min-h-[400px] md:min-h-[600px]">
                 <img
-                  src="/src/image.png"
+                  src="/src/assets/image.png"
                   alt="Contact support illustration"
-                  className="absolute inset-0 object-cover w-full h-full rounded-r-xl"
+                  className="absolute inset-0 object-cover w-full h-full"
                 />
               </div>
             </CardContent>
