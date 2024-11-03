@@ -4,7 +4,7 @@ const CompanyLogos = ({ className }) => {
   return (
     <div className={className}>
       <h5 className="tagline mb-6 text-center text-n-1/50">
-      We'll launch your business beyond the stars—making sure you're seen, even in space!
+        We'll launch your business beyond the stars—making sure you're seen, even in space!
       </h5>
       <ul className="flex">
         {companyLogos.map((logo, index) => (
