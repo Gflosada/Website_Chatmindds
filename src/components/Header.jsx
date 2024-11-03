@@ -77,7 +77,7 @@ const Header = () => {
           AI Solutions
         </a>
         <Button className="hidden lg:flex" href="#login">
-          Contact Us
+          Home
         </Button>
 
         <Button

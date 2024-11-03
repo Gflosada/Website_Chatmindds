@@ -20,7 +20,7 @@ const Footer = () => {
             >
               <img src={item.iconUrl} width={16} height={16} alt={item.title} />
             </a>
-          ))}v
+          ))}
         </ul>
       </div>
     </Section>
